@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="375dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:text="Lodge a Complain "
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ag"
+        android:layout_width="374dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Against Whom ?"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="374dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Select Date"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ag" />
+
+    <EditText
+        android:id="@+id/rv"
+        android:layout_width="374dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="Select Reviewer"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Write your complain here"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv" />
+
+    <Button
+        android:id="@+id/lc"
+        android:layout_width="117dp"
+        android:layout_height="59dp"
+        android:text="Lodge Complain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:text="Edit Complain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/update2"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/update2"
+        android:layout_width="127dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Edit Reviewer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lc"
+        app:layout_constraintTop_toBottomOf="@+id/cm"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <EditText
+        android:id="@+id/cm"
+        android:layout_width="381dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

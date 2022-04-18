@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "27900030428",
+    "firebase_url": "https://project-cse327-default-rtdb.firebaseio.com",
+    "project_id": "project-cse327",
+    "storage_bucket": "project-cse327.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27900030428:android:f93adf693b389aeed83319",
+        "android_client_info": {
+          "package_name": "com.example.nsucomplaintlodgementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27900030428-dh0d1j17h673pqas49f29o8s6i8ar575.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAywyCnZpp8VHeJ603EQacmCrkfwGiCckE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27900030428-dh0d1j17h673pqas49f29o8s6i8ar575.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

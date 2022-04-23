@@ -77,42 +77,56 @@
         android:id="@+id/lc"
         android:layout_width="117dp"
         android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:text="Lodge Complain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm" />
+
+    <Button
+        android:id="@+id/hs"
+        android:layout_width="117dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Complain History"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cm"
-        app:layout_constraintVertical_bias="0.225" />
+        app:layout_constraintTop_toBottomOf="@+id/lc" />
 
     <Button
         android:id="@+id/update"
         android:layout_width="126dp"
         android:layout_height="63dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
         android:text="Edit Complain"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/update2"
-        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintEnd_toStartOf="@+id/lc"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cm"
-        app:layout_constraintVertical_bias="0.241" />
+        app:layout_constraintTop_toBottomOf="@+id/cm" />
 
     <Button
         android:id="@+id/update2"
         android:layout_width="127dp"
         android:layout_height="61dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="4dp"
         android:text="Edit Reviewer"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/lc"
-        app:layout_constraintTop_toBottomOf="@+id/cm"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintEnd_toStartOf="@+id/hs"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update"
+        app:layout_constraintVertical_bias="0.464" />
 
     <EditText
         android:id="@+id/cm"
-        android:layout_width="381dp"
-        android:layout_height="248dp"
+        android:layout_width="394dp"
+        android:layout_height="197dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:gravity="start|top"

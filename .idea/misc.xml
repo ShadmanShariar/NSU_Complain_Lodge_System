@@ -5,11 +5,15 @@
       <map>
         <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2078125" />
         <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2078125" />
+        <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_all_complain.xml" value="0.2" />
+        <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_faculty.xml" value="0.1671195652173913" />
         <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_history.xml" value="0.16041666666666668" />
         <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_log_in.xml" value="0.2" />
         <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_main2.xml" value="0.22" />
         <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_main3.xml" value="0.22" />
+        <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/activity_view.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/defaultuser0/NSUComplaintLodgementSystem/app/src/main/res/layout/samplelayout.xml" value="0.1671195652173913" />
       </map>
     </option>
   </component>

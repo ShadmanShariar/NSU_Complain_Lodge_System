@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NSUComplaintLodgementSystem">
         <activity
+            android:name=".AllComplain"
+            android:exported="false" />
+        <activity
+            android:name=".Faculty"
+            android:exported="false" />
+        <activity
             android:name=".History"
             android:exported="false" />
         <activity
